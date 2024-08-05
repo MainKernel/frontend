@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #393E46;
+    color: whitesmoke;
+
+}
+
+.navigation{
+    margin: 0px;
+    padding: 10px;
+    background-color: #222831;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    
+  
+}
+.navigation > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.user-logo {
+    justify-content: end;
+    
+}
+
+.user-logo>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+}
+
+.first-container{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+
+}
+
+.card{
+    width: 45%;
+
+}
+.card > img{
+    width: 100%;
+    border: 3px solid #2b2f35;
+}
