@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+      .body {
+        margin: 0px;
+        padding: 0px;
+      }
+      .container {
+        height: 748px;
+        width: 748px;
+        display: grid;
+        grid-template-columns: 320px 9px 198px 9px 153px 9px 50px;
+        grid-template-rows: 414px 9px 130px 9px 155px 9px 20px;
+        background-color: #f0f1ec;
+        gap: 0px;
+        border: 3px solid black;
+        box-shadow: #232629;
+      }
+      .red {
+        background-color: #e72f24;
+      }
+      .black {
+        background-color: #525353;
+        grid-row-start: 7;
+        grid-row-end: 7;
+        grid-column-start: 5;
+        grid-column-end: 6;
+      }
+      .black2 {
+        background-color: #232629;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 8;
+      }
+      .black3 {
+        background-color: #232629;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-row-end: 8;
+      }
+      .black4 {
+        background-color: #232629;
+        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-column-end: 7;
+      }
+      .black5 {
+        background-color: #232629;
+        grid-row-start: 3;
+        grid-column-start: 6;
+        grid-row-end: 8;
+      }
+      .black6 {
+        background-color: #232629;
+        grid-row-start: 4;
+        grid-column-start: 7;
+      }
+      .black7 {
+        background-color: #232629;
+        grid-row-start: 7;
+        grid-column-start: 4;
+      }
+      .blue {
+        background-color: #004592;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 7;
+        grid-column-end: 8;
+      }
+      .yellow {
+        background-color: #f9d01e;
+        grid-row-start: 7;
+        grid-row-end: 7;
+        grid-column-start: 3;
+        grid-column-end: 4;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="container">
+      <div class="element red"></div>
+      <div class="element black"></div>
+      <div class="element black2"></div>
+      <div class="element black3"></div>
+      <div class="element black4"></div>
+      <div class="element black5"></div>
+      <div class="element black6"></div>
+      <div class="element black7"></div>
+      <div class="element blue"></div>
+      <div class="element yellow"></div>
+    </div>
+  </body>
+</html>
